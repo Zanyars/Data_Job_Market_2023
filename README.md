@@ -74,7 +74,7 @@ From there, I took a deeper look by analyzing the average salary per role.
 | Data Engineer             | 130,267              | 4,509               |
 | Machine Learning Engineer | 126,786              | 573                 |
 
-Click [here](project_luke\2_query.sql) to see its relevant SQL query.
+Click [here](project_luke/2_query.sql) to see its relevant SQL query.
 
 Additionally, I identified the top 10 highest-paying jobs and it was not a surprise for me to see Data Scientist and Senior Data Scientist roles dominate the top-paying positions — they take up the majority of the bar range across multiple stacked components.
 
