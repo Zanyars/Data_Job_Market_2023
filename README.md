@@ -13,7 +13,7 @@ Through this project, I aim to provide a comprehensive snapshot of the job lands
 
 This project is based on an excellent YouTube course by [Luke Barousse](https://www.linkedin.com/in/luke-b/) and [Kelly Adams](https://www.linkedin.com/in/kellyjianadams/), who provided not only the data but also a well-structured learning experience for aspiring data professionals. I am grateful for their efforts in making technical learning accessible and practical.
 
-# 🧠 2. Background
+# 🧠 Background
 As a physicist, I’ve always been drawn to the world of data science and sought to build a strong foundation in its core tools. After researching what skills are essential, I discovered that SQL is one of the most in-demand competencies for data professionals.
 
 To begin my journey, I enrolled in a YouTube course by [Luke Barousse](https://www.youtube.com/@LukeBarousse), which provided hands-on experience analyzing job postings from 10 different roles in the data domain — including Data Scientist, Data Analyst, Data Engineer, Cloud Engineer, and more.
@@ -22,7 +22,7 @@ Throughout this project, I focused primarily on Data Scientist roles, gradually 
 
 
 
-# 🛠️ 3. Tools I Used
+# 🛠️ Tools I Used
 Here are the tools and technologies I used to complete this project:
 
 **SQL**: The primary language for querying and exploring the dataset.
@@ -40,7 +40,7 @@ Here are the tools and technologies I used to complete this project:
 # Job Market Analysis: Insights into Roles, Salaries, and In-Demand Skills
 In this analysis, I explored a dataset of job postings to uncover meaningful insights about roles, salaries, and required skills. The investigation is structured around key questions that each address a specific aspect of the data.
 
-### 1. Distribution of Job Postings by Role
+### Distribution of Job Postings by Role
 To begin, I examined the number of job postings associated with each job title. This provides an overview of the most common roles in the dataset.
 
 ```sql
@@ -81,7 +81,7 @@ Additionally, I identified the top 10 highest-paying jobs and it was not a surpr
 ![Top 10 Job](project_luke/jupyter_notebook/q3.png)*Figure 2: Top-10 Highest Paying Jobs
 This chart visualizes the top-paying data-related roles based on job postings, with "Data Scientist" and "Senior Data Scientist" appearing as the most lucrative positions. The colors represent pay gradients, with darker shades indicating higher pay brackets.*
 
-### 2. Focus on Data Scientist Positions
+### Focus on Data Scientist Positions
 Given my interest in the field of data science, I focused specifically on job postings for Data Scientist roles. In the previous section, we observed that this title ranks among the top three most frequently posted jobs, with one of the highest average salaries.
 
 In this section, I extracted the top 10 highest-paying Data Scientist positions and investigated which skills were most frequently listed for those roles. Here is my SQL query:
@@ -132,7 +132,7 @@ This figure illustrates the most in-demand technical skills among top-paying job
 
 The figure indicates that *python, sql,* and *r* are highly demanded skills needed to get hired the top 10 highest-paying Data Scientist positions.
 
-### 3. Most In-Demand Skills for Data Scientists
+### Most In-Demand Skills for Data Scientists
 
 Having looked at the top 10 high-paying Data Scientist roles, I expanded the scope to understand which skills are most in-demand across all Data Scientist job postings.
 
@@ -214,7 +214,7 @@ This graph presents the skills most associated with higher salaries. Tools like 
 
 Interestingly, none of the top 25 high-paying skills overlap with the most top 5 in-demand skills across the entire dataset.
 
-### 5. Optimal Skills: Balancing High Pay and Demand
+### Optimal Skills: Balancing High Pay and Demand
 
 Finally, I compared the results of sections 3 and 4. While some skills are frequently in demand, others are more strongly correlated with higher salaries. This raises a valuable question:
 
@@ -252,7 +252,7 @@ This bubble chart compares average salaries to demand across 25 top data science
 
 
 
-# ✨ 5. What I Learned
+# ✨ What I Learned
 One of the early challenges I faced was understanding foreign keys and the rationale behind storing information in multiple related tables rather than a single flat structure. Fortunately, the course provided a clear and structured approach that helped solidify these concepts through repeated practice.
 
 I also learned to think in SQL — understanding how queries are processed, the execution order of statements, and how to break down problems into step-by-step logic. This mindset made writing and debugging queries much easier.
@@ -264,7 +264,7 @@ One insight from the data that genuinely surprised me was the high demand for re
 Lastly, I learned how to move from broad questions to detailed analysis, using clear visuals to tell a data-driven story that’s easy for others to follow.
 
 
-# ✅ 6. Conclusion
+# ✅ Conclusion
 The biggest takeaway from this project is that I don’t need to limit myself to physics alone. Building this portfolio project and sharing it on GitHub is a step toward positioning myself as a strong candidate for Data Analyst and Data Scientist roles.
 
 Learning SQL has strengthened my technical foundation significantly. Having already used Python extensively in my Master’s program — for data analysis, simulations, and automating workflows — I now plan to expand my skillset by learning Tableau and other tools that enhance data storytelling.
