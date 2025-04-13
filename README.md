@@ -59,7 +59,7 @@ ORDER BY
     num_slaries DESC;
 ```
 
-![Top 10 Job](project_luke\jupyter_notebook\q1.png)*Figure 1: Data-Related Job Market by Year 2023
+![Top 10 Job](project_luke/jupyter_notebook/q1.png)*Figure 1: Data-Related Job Market by Year 2023
 This horizontal bar chart shows the distribution of job postings for various data-related roles in 2023. "Data Analyst", "Data Engineer", and "Data Scientist" lead the market, each with over 170,000 postings, highlighting their high demand.*
 
 From there, I took a deeper look by analyzing the average salary per role.
@@ -78,7 +78,7 @@ Click [here](project_luke\2_query.sql) to see its relevant SQL query.
 
 Additionally, I identified the top 10 highest-paying jobs and it was not a surprise for me to see Data Scientist and Senior Data Scientist roles dominate the top-paying positions — they take up the majority of the bar range across multiple stacked components.
 
-![Top 10 Job](project_luke\jupyter_notebook\q3.png)*Figure 2: Top-10 Highest Paying Jobs
+![Top 10 Job](project_luke/jupyter_notebook/q3.png)*Figure 2: Top-10 Highest Paying Jobs
 This chart visualizes the top-paying data-related roles based on job postings, with "Data Scientist" and "Senior Data Scientist" appearing as the most lucrative positions. The colors represent pay gradients, with darker shades indicating higher pay brackets.*
 
 ### 2. Focus on Data Scientist Positions
@@ -127,7 +127,7 @@ ORDER BY
     num_skill DESC
 ;
 ```
-![Top Skills Payment](project_luke\jupyter_notebook\q4.png)*Figure 3: Top-10 Highest Paying Job Skills
+![Top Skills Payment](project_luke/jupyter_notebook/q4.png)*Figure 3: Top-10 Highest Paying Job Skills
 This figure illustrates the most in-demand technical skills among top-paying jobs. Programming languages like Python, SQL, and R dominate, reaffirming their core value in data careers.*
 
 The figure indicates that *python, sql,* and *r* are highly demanded skills needed to get hired the top 10 highest-paying Data Scientist positions.
@@ -209,7 +209,7 @@ LIMIT
     25
 ;
 ```
-![Top 25 High skills](project_luke\jupyter_notebook\q5.png)*Figure 4: Top-25 Skills Associated with High Salary
+![Top 25 High skills](project_luke/jupyter_notebook/q5.png)*Figure 4: Top-25 Skills Associated with High Salary
 This graph presents the skills most associated with higher salaries. Tools like Asana, Airtable, and RedHat are at the top, suggesting a niche but valuable demand for expertise in certain platforms and frameworks.*
 
 Interestingly, none of the top 25 high-paying skills overlap with the most top 5 in-demand skills across the entire dataset.
@@ -247,7 +247,7 @@ LIMIT
     25
 ;
 ```
-![Optimal skills](project_luke\jupyter_notebook\q6.png)*Figure 5: Top 25 Optimal Data Science Skills – Salary vs Demand (Bubble Size = Demand)
+![Optimal skills](project_luke/jupyter_notebook/q6.png)*Figure 5: Top 25 Optimal Data Science Skills – Salary vs Demand (Bubble Size = Demand)
 This bubble chart compares average salaries to demand across 25 top data science skills. Skills like Airflow, BigQuery, and Looker offer high salaries, while tools such as Python and SQL show massive demand (indicated by larger bubbles) despite relatively moderate salaries.*
 
 
